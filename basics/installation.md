@@ -16,13 +16,13 @@ layout:
 
 #### Step 1 :
 
-```
+```bash
 composer require lakm/laravel-comments -W
 ```
 
 #### Step 2 :
 
-```
+```bash
 php artisan commenter:install
 ```
 
@@ -30,7 +30,7 @@ php artisan commenter:install
 
 Include styles in your layout.
 
-```
+```html
 <html>
     <head>
         @commnetsStyles
@@ -44,7 +44,7 @@ To avoid CSS name conflicts, we recommend adding your styles to the end of the h
 
 Finally include scripts in your layout
 
-```
+```html
 <html>
     <body>
         @commentsScripts
@@ -58,6 +58,6 @@ To improve performance we recommend adding script at the end of the body tag.
 
 Optionally you can publish the views using below command,
 
-```
+```bash
 php artisan vendor:publish --tag=comments-views
 ```

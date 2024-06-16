@@ -18,13 +18,13 @@ You can find all the configurable options in our self-explanatory configuration 
 
 If you need to manually publish the configuration file, you can use the following command:
 
-```
+```bash
 php artisan vendor:publish --tag=comments-config
 ```
 
 The contents of the configuration file are as follows:
 
-```
+```php
 <?php
 
 use App\Models\User;

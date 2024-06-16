@@ -20,7 +20,7 @@ By default **Guest Mode** has enabled.
 
 Set $guestMode, true in related model. This will effect to that model only.
 
-```
+```php
 class Post extends Model {
     $guestMode = false; // Auth mode
 }
@@ -30,7 +30,7 @@ class Post extends Model {
 
 You can set guest mode enabled variable true in the config file. This will globally enabled the guest mode.
 
-```
+```php
 // comments.php
 
 guest_mode => [

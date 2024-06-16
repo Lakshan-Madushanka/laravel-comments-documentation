@@ -20,7 +20,7 @@ All the validation rules can be found in the `ValidationRules.php` file located 
 
 You can define your own rules using the `createCommentUsing(callable $callable)` and `updateCommentUsing(callable $callable)` properties in the `boot` method of a service provider.
 
-```
+```php
 // AppServiceProvider.php
 
 use LakM\Comments\ValidationRules;

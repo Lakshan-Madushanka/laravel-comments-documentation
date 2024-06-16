@@ -16,7 +16,7 @@ layout:
 
 ### Publish config file
 
-```
+```bash
 php artisan vendor:publish --tag=lakm/configs
 ```
 

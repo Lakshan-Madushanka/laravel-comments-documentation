@@ -24,7 +24,7 @@ You can enable any number of reactions on both sides, left and right.  By defaul
 
 ### Defining Reactions
 
-```
+```php
 // comments.php
 
 'reactions' => [
@@ -37,7 +37,7 @@ You can enable any number of reactions on both sides, left and right.  By defaul
 
 #### Publish views
 
-```
+```bash
 php artisan vendor:publish --tag=comments-views
 ```
 

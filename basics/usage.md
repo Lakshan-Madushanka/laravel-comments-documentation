@@ -24,7 +24,7 @@ Model that the user belongs to.
 
 ### Import <mark style="color:purple;">Commentable</mark> trait in commentable model.
 
-```
+```php
 import LakM\Comments\Concerns\Commentable;
 
 class Post extends Model {
@@ -34,7 +34,7 @@ class Post extends Model {
 
 ### Import <mark style="color:purple;">Commenter</mark> trait in commenter model.
 
-```
+```php
 import LakM\Comments\Concerns\Commenter;
 
 class Post extends Model {
@@ -44,13 +44,13 @@ class Post extends Model {
 
 ### Then simply include component in your blade file
 
-```
+```html
 <x-comments :model="$post" />
 ```
 
 or you can use components seperatly,
 
-```
+```html
 <div x-cloak x-data class="space-y-8">
     <livewire:comments-list :model="$model" />
     <hr class="text-gray-400" />

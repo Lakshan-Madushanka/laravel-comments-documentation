@@ -15,6 +15,10 @@
 * [🔨 Installation](basics/installation.md)
 * [✈️ Usage](basics/usage.md)
 
+## Demo
+
+* [👩‍🏫 Project](demo/project.md)
+
 ## Configuration
 
 * [🇩🇴 Publish Config](configuration/publish-config.md)
