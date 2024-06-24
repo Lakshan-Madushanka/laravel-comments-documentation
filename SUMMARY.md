@@ -36,3 +36,4 @@
 * [🚀 Performance](advance/performance.md)
 * [⚡ Events](advance/events.md)
 * [🌍 Localization](advance/localization.md)
+* [🛟 Customization](advance/customization.md)
