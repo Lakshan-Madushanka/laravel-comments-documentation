@@ -14,13 +14,15 @@ layout:
 
 # 💡 Why Commentor
 
-The commenting feature is a common requirement for most websites. Allowing users to comment enables interaction and enhances the user experience. While Laravel offers a wealth of packages to meet various project needs, there are limited options when it comes to commenting features. Here are some drawbacks of existing commenting packages:
+The commenting feature is a common requirement for most websites. Allowing users to comment enables interaction and enhances the user experience. While Laravel offers a wealth of packages to meet various project needs, there are limited options when it comes to commenting features.
+
+#### &#x20;Here are some drawbacks of existing commenting packages:
 
 * Outdated: Uses outdated technologies and is not actively maintained.
 * Lack of Features: Missing many essential features.
 * No Admin Panel: Requires additional time to implement an admin panel independently.
-* User Interface: Interfaces are not user-friendly.
-* Mobile Responsiveness: Not optimized for mobile devices.
+* Bad Design: Interfaces are not user-friendly.
+* Not Mobile Responsive: Not optimized for mobile devices.
 * Performance Issues: May cause performance slowdowns.
 * Lack of Configurability: Limited options for customization and configuration.
 
