@@ -22,22 +22,24 @@ Model that the comment belongs to.
 
 Model that the user belongs to.
 
-### Import <mark style="color:purple;">Commentable</mark> trait in commentable model.
+### Implement <mark style="color:purple;">CommentableContract</mark> and import <mark style="color:purple;">Commentable</mark> trait in commentable model.
 
 ```php
 import LakM\Comments\Concerns\Commentable;
+import LakM\Comments\Contracts\CommentableContract;
 
-class Post extends Model {
+class Post extends Model implements CommentableContract{
     use Commentable;
 }
 ```
 
-### Import <mark style="color:purple;">Commenter</mark> trait in commenter model.
+### Implement <mark style="color:purple;">CommenterContract</mark> and import <mark style="color:purple;">Commenter</mark> trait in commenter model.
 
 ```php
 import LakM\Comments\Concerns\Commenter;
+import LakM\Comments\Contracts\CommenterContract;
 
-class Post extends Model {
+class Post extends Model implements CommenterContract{
     use Commenter;
 }
 ```
