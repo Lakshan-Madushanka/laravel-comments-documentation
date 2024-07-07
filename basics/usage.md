@@ -47,10 +47,18 @@ class Post extends Model implements CommenterContract{
 ### Then simply include component in your blade file
 
 ```html
-<x-comments :model="$post" />
+<x-comments:index :model="$post" />
 ```
 
-or you can use components seperatly,
+{% hint style="danger" %}
+You can omit the index part but make sure to include the double colon. Otherwise Laravel will search for the component in project instead of the package.
+
+```html
+<x-comments:: :model="$post" />
+```
+{% endhint %}
+
+or you can use components separately,
 
 ```html
 <div x-cloak x-data class="space-y-8">

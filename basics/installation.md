@@ -42,7 +42,7 @@ Include styles in your layout.
 To avoid CSS name conflicts, we recommend adding your styles to the end of the head tag.
 {% endhint %}
 
-Finally include scripts in your layout
+Include scripts in your layout
 
 ```html
 <html>
