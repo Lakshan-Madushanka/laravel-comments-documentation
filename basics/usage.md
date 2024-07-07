@@ -44,6 +44,34 @@ class Post extends Model implements CommenterContract{
 }
 ```
 
+### Include styles in your layout.
+
+```html
+<html>
+    <head>
+        @commnetsStyles
+    </head>
+</html>
+```
+
+{% hint style="info" %}
+To avoid CSS name conflicts, we recommend adding your styles to the end of the head tag.
+{% endhint %}
+
+### Include scripts in your layout
+
+```html
+<html>
+    <body>
+        @commentsScripts
+    </body>
+</html>
+```
+
+{% hint style="info" %}
+To improve performance we recommend adding script at the end of the body tag.
+{% endhint %}
+
 ### Then simply include component in your blade file
 
 ```html
