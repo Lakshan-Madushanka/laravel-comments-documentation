@@ -32,6 +32,8 @@ Install composer dependencies,
 
 ```bash
 composer install
+php artisan commenter:install
+php artisan migrate --seed
 ```
 
 Install npm dependencies and run dev server,
