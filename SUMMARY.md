@@ -19,6 +19,7 @@
 
 * [👩‍🏫 Project](demo/project.md)
 * [📺 Basic Demo Video](demo/basic-demo-video.md)
+* [📼 Full Demo Video](demo/full-demo-video.md)
 
 ## Configuration
 
