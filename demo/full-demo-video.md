@@ -14,4 +14,4 @@ layout:
 
 # 📼 Full Demo Video
 
-{% embed url="https://youtu.be/dvFIOhSpmv8" %}
+{% embed url="https://www.youtube.com/watch?v=dvFIOhSpmv8" %}
