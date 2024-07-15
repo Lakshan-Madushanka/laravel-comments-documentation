@@ -13,7 +13,7 @@ description: >-
 Set `approvalRequired` property true to enable.
 
 ```php
-import LakM\Comments\Concerns\Commentable;
+use LakM\Comments\Concerns\Commentable;
 
 class Post extends Model {
     use Commentable;

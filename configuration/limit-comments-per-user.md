@@ -27,7 +27,7 @@ limit = 10; // now a user can make only 10 comments for a model.
 ### Locally
 
 ```php
-import LakM\Comments\Concerns\Commentable;
+use LakM\Comments\Concerns\Commentable;
 
 class Post extends Model {
     use Commentable;

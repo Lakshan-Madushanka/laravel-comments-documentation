@@ -25,8 +25,8 @@ Model that the user belongs to.
 ### Implement <mark style="color:purple;">CommentableContract</mark> and import <mark style="color:purple;">Commentable</mark> trait in commentable model.
 
 ```php
-import LakM\Comments\Concerns\Commentable;
-import LakM\Comments\Contracts\CommentableContract;
+use LakM\Comments\Concerns\Commentable;
+use LakM\Comments\Contracts\CommentableContract;
 
 class Post extends Model implements CommentableContract{
     use Commentable;
@@ -36,8 +36,8 @@ class Post extends Model implements CommentableContract{
 ### Implement <mark style="color:purple;">CommenterContract</mark> and import <mark style="color:purple;">Commenter</mark> trait in commenter model.
 
 ```php
-import LakM\Comments\Concerns\Commenter;
-import LakM\Comments\Contracts\CommenterContract;
+use LakM\Comments\Concerns\Commenter;
+use LakM\Comments\Contracts\CommenterContract;
 
 class Post extends Model implements CommenterContract{
     use Commenter;
