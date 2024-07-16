@@ -49,7 +49,7 @@ class Post extends Model implements CommenterContract{
 ```html
 <html>
     <head>
-        @commnetsStyles
+        @commentsStyles
     </head>
 </html>
 ```
