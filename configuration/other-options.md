@@ -35,13 +35,35 @@ use LakM\Comments\Reactions\Like;
 
 return [
     /**
-     * Commentable Model
-     * Must extends base model LakM\Comments\Models\Comment
+     * Comment Model
+     * Must extend base model LakM\Comments\Models\Comment
      */
     'model' => Comment::class,
 
-    // Comment owner model
+    /**
+     * Comment owner model
+     * Must extend Illuminate\Contracts\Auth\Authenticatable
+     * Must implement LakM\Comments\Contracts\CommentableContract
+     */
     'user_model' => User::class,
+
+    /**
+     * Database column or model accessor name to
+     * get the name of the user.
+     */
+    'user_name_column' => 'name',
+
+    /**
+     * Database column or model accessor email to
+     * get the email of the user.
+     */
+    'user_email_column' => 'email',
+
+    /**
+     * Reaction model
+     * Must extend LakM\Comments\Models\Reaction
+     */
+    'reaction_model' => Reaction::class,
 
     // When guest mode unable no authentication required
     'guest_mode' => [
@@ -86,13 +108,20 @@ return [
         ],
     ],
 
+    /**
+     * In Auth mode clicking profile photo will be redirected to this url
+     * Keep null to disable this feature.
+     * This can be table column name or accessor
+     */
+    'profile_url_column' => 'name',
+
     // When set to false filters won't be displayed in comments list
     'show_filters' => true,
 
     // Comments pagination
     'pagination' => [
         'enabled' => true,
-        'per_page' => 35,
+        'per_page' => 15,
     ],
 
     'permissions' => [
@@ -124,7 +153,7 @@ return [
         'approval_required' => false,
         'pagination' => [
             'enabled' => true,
-            'per_page' => 15,
+            'per_page' => 10,
         ],
     ],
     /**
@@ -140,7 +169,7 @@ return [
                 ['code-block'],
             ],
         ],
-        'placeholder' => 'write your comment',
+        'placeholder' => 'Your message here',
         'theme' => 'snow',
     ],
 
@@ -157,14 +186,6 @@ return [
      * 'diff' (hour ago), 'standard' (2024/5/2 17:48)
      */
     'date_format' => 'diff',
-
-    'admin_panel' => [
-        'enabled' => true,
-        'routes' => [
-            'middlewares' => [],
-            'prefix' => 'admin',
-        ],
-    ],
 ];
 
 ```
