@@ -28,4 +28,6 @@ The commenting feature is a common requirement for most websites. Allowing users
 
 Due to these issues, most companies tend to opt for commercial packages or plugins. However, spending extra money on commercial packages reduces the company's overall profit. This package is developed to address all these shortcomings.
 
-> As a full stack developer, I have personally encountered these issues. That's why I developed this package—not only for my own projects but also to benefit other developers.
+{% hint style="info" %}
+As a full stack developer, I have personally encountered these issues. That's why I developed this package—not only for my own projects but also to benefit other developers.
+{% endhint %}

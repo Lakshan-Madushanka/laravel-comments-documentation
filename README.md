@@ -8,11 +8,19 @@ description: Seamless commenting feature for your Laravel project.
 
 <div>
 
+<figure><img src="https://img.shields.io/badge/laravel-^10.0%20|%20^11.0-red" alt=""><figcaption></figcaption></figure>
+
+ 
+
 <figure><img src="https://img.shields.io/github/actions/workflow/status/Lakshan-Madushanka/laravel-comments/run-tests.yml" alt=""><figcaption></figcaption></figure>
 
  
 
 <figure><img src="https://img.shields.io/packagist/v/lakm/laravel-comments" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="https://img.shields.io/packagist/dt/lakm/laravel-comments" alt=""><figcaption></figcaption></figure>
 
  
 
