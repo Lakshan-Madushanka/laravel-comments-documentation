@@ -15,7 +15,8 @@ Set `approvalRequired` property true to enable.
 ```php
 use LakM\Comments\Concerns\Commentable;
 
-class Post extends Model {
+class Post extends Model
+{
     use Commentable;
     
     $approvalRequired = true; // This will enable comments approval

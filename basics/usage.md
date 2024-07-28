@@ -28,7 +28,8 @@ Model that the user belongs to.
 use LakM\Comments\Concerns\Commentable;
 use LakM\Comments\Contracts\CommentableContract;
 
-class Post extends Model implements CommentableContract{
+class Post extends Model implements CommentableContract
+{
     use Commentable;
 }
 ```
@@ -39,7 +40,8 @@ class Post extends Model implements CommentableContract{
 use LakM\Comments\Concerns\Commenter;
 use LakM\Comments\Contracts\CommenterContract;
 
-class Post extends Model implements CommenterContract{
+class Post extends Model implements CommenterContract
+{
     use Commenter;
 }
 ```

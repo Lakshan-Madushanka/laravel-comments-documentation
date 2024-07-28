@@ -29,7 +29,8 @@ limit = 10; // now a user can make only 10 comments for a model.
 ```php
 use LakM\Comments\Concerns\Commentable;
 
-class Post extends Model {
+class Post extends Model
+{
     use Commentable;
     
     $commentLimit = 10;

@@ -21,7 +21,8 @@ By default **Guest Mode** has enabled.
 Set $guestMode, true in related model. This will effect to that model only.
 
 ```php
-class Post extends Model {
+class Post extends Model 
+{
     $guestMode = false; // Auth mode
 }
 ```

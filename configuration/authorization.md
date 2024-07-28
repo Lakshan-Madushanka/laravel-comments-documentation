@@ -23,7 +23,8 @@ You can define authorization logics model-wise using the following methods. Thes
 ```php
 use LakM\Comments\Concerns\Commentable;
 
-class Post extends Model {
+class Post extends Model
+{
     use Commentable;
     
     // Create comment
