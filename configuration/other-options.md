@@ -173,6 +173,8 @@ return [
         'theme' => 'snow',
     ],
 
+    'should_confirm_link_visit' => true,
+
     'reactions' => [
         'like' => ['position' => 'left', 'fill' => 'gray'],
         'dislike' => ['position' => 'left', 'fill' => 'gray'],
