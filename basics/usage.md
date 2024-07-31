@@ -40,7 +40,7 @@ class Post extends Model implements CommentableContract
 use LakM\Comments\Concerns\Commenter;
 use LakM\Comments\Contracts\CommenterContract;
 
-class Post extends Model implements CommenterContract
+class User extends Model implements CommenterContract
 {
     use Commenter;
 }
