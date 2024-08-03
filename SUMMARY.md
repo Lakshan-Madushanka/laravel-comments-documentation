@@ -5,6 +5,7 @@
 ## Overview
 
 * [💡 Why Commentor](overview/why-commentor.md)
+* [🗞️ Articles](overview/articles.md)
 * [✨ Key Features](overview/key-features.md)
 * [🤖 Technologies](overview/technologies.md)
 
