@@ -12,8 +12,8 @@ layout:
     visible: true
 ---
 
-# ®️ Requirements
+# ®️ ®️ Requirements
 
-* **PHP**:  ^8.1 | ^8.1 | ^8.3&#x20;
+* **PHP**:  ^8.1 | ^8.2 | ^8.3&#x20;
 * **Laravel**:  ^10.0 | ^11.0&#x20;
-* **Livewire**:  ^3.0
+* **Livewire**:  ^3.5  (Automatically install if not present)
