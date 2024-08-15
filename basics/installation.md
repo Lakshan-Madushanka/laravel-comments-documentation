@@ -33,7 +33,7 @@ Include styles in your layout.
 ```html
 <html>
     <head>
-        @commnetsStyles
+        @commentsStyles
     </head>
 </html>
 ```
