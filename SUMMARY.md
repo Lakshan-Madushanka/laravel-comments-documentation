@@ -32,6 +32,7 @@
 * [😍 Reactions](configuration/reactions.md)
 * [⛔ Approval](configuration/approval.md)
 * [🚧 Validations](configuration/validations.md)
+* [Sorting](configuration/sorting.md)
 * [🛠️ Other Options](configuration/other-options.md)
 
 ## Advance

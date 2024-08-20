@@ -21,8 +21,14 @@ By default **Guest Mode** has enabled.
 Set $guestMode, true in related model. This will effect to that model only.
 
 ```php
-class Post extends Model 
+use Illuminate\Database\Eloquent\Model;
+use LakM\Comments\Concerns\Commentable;
+use LakM\Comments\Contracts\CommentableContract;
+
+class Post extends Model implements CommentableContract
 {
+    use Commentable;
+
     $guestMode = false; // Auth mode
 }
 ```

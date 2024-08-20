@@ -14,7 +14,7 @@ layout:
 
 # 🛠️ Other Options
 
-You can find all the configurable options in our self-explanatory configuration file. By default, this file will be published as `comments.config` in the config directory after you run the  [comments:install ](../basics/installation.md#step-2) command.
+You can find all the configurable options in our self-explanatory configuration file. By default, this file will be published as `comments.config` in the config directory after you run the  [commenter:install ](../basics/installation.md) command.
 
 If you need to manually publish the configuration file, you can use the following command:
 
@@ -28,12 +28,18 @@ The contents of the configuration file are as follows:
 <?php
 
 use App\Models\User;
+use LakM\Comments\Enums\Sort;
 use LakM\Comments\Models\Comment;
+use LakM\Comments\Models\Reaction;
 use LakM\Comments\Policies\CommentPolicy;
 use LakM\Comments\Policies\ReplyPolicy;
-use LakM\Comments\Reactions\Like;
 
 return [
+    /**
+     * Available themes default,github
+     */
+    'theme' => 'default',
+
     /**
      * Comment Model
      * Must extend base model LakM\Comments\Models\Comment
@@ -118,6 +124,9 @@ return [
     // When set to false filters won't be displayed in comments list
     'show_filters' => true,
 
+    // Default comments sort order, See Sort::class for available values
+    'default_sort' => Sort::TOP,
+
     // Comments pagination
     'pagination' => [
         'enabled' => true,
@@ -155,6 +164,8 @@ return [
             'enabled' => true,
             'per_page' => 10,
         ],
+        // Default comments sort order, available values: Sort::LATEST->value, Sort::OLDEST
+        'default_sort' => Sort::LATEST,
     ],
     /**
      * Quill editor configs
@@ -166,7 +177,7 @@ return [
             'toolbar' => [
                 [['header' => [1, 2, false]]],
                 ['bold', 'italic', 'underline'],
-                ['code-block'],
+                ['link', 'code-block'],
             ],
         ],
         'placeholder' => 'Your message here',
@@ -189,5 +200,4 @@ return [
      */
     'date_format' => 'diff',
 ];
-
 ```
