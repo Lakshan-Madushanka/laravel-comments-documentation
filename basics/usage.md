@@ -77,7 +77,7 @@ To improve performance we recommend adding script at the end of the body tag.
 ### Then simply include component in your blade file
 
 ```html
-<x-comments:index :model="$post" />
+<x-comments::index :model="$post" />
 ```
 
 {% hint style="danger" %}
