@@ -32,7 +32,13 @@ description: Seamless commenting feature for your Laravel project.
 
 Commenter is a feature-rich, modern package with an admin panel designed to address all your commenting needs. With this package, you won't need any additional tools for the comment functionality in your Laravel projects.
 
-<figure><img src=".gitbook/assets/new.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/default_style.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/github_style.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/Screenshot 2024-08-04 102157.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/Screenshot 2024-08-04 102103.png" alt=""><figcaption></figcaption></figure>
 
 ## Quick links
 

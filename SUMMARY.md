@@ -12,7 +12,7 @@
 ## Basics
 
 * [🧠 Concept](basics/concept.md)
-* [®️ Requirements](basics/requirements.md)
+* [®️ ®️ Requirements](basics/requirements.md)
 * [🔨 Installation](basics/installation.md)
 * [✈️ Usage](basics/usage.md)
 * [🌈 Themes](basics/themes.md)
