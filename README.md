@@ -4,7 +4,7 @@ description: Seamless commenting feature for your Laravel project.
 
 # 😍 Commenter
 
-<figure><img src=".gitbook/assets/Commenter4 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Designer (3).jpeg" alt=""><figcaption></figcaption></figure>
 
 <div>
 
