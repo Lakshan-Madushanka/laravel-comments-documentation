@@ -1,8 +1,21 @@
 ---
 description: Seamless commenting feature for your Laravel project.
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # 😍 Commenter
+
+### Seamless commenting feature for your Laravel project.
 
 <figure><img src=".gitbook/assets/Designer (3).jpeg" alt=""><figcaption></figcaption></figure>
 
