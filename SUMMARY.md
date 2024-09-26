@@ -47,3 +47,4 @@
 ***
 
 * [🛣️ Roadmap](roadmap.md)
+* [💓 Sponsor](sponsor.md)
