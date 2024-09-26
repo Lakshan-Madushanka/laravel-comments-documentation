@@ -1,10 +1,14 @@
 ---
 description: Seamless commenting feature for your Laravel project.
+coverY: 0
 layout:
+  cover:
+    visible: false
+    size: full
   title:
     visible: true
   description:
-    visible: false
+    visible: true
   tableOfContents:
     visible: true
   outline:
@@ -14,8 +18,6 @@ layout:
 ---
 
 # 😍 Commenter
-
-### Seamless commenting feature for your Laravel project.
 
 <figure><img src=".gitbook/assets/Designer (3).jpeg" alt=""><figcaption></figcaption></figure>
 
