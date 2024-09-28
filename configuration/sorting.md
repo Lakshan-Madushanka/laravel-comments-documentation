@@ -20,7 +20,7 @@ layout:
 Available Options: All the options in [`LakM\Comments\Enums\Sort`](https://github.com/Lakshan-Madushanka/laravel-comments/blob/main/src/Enums/Sort.php) class.
 
 * `Sort::TOP` - Sort by custom algorithm (default).
-* \``Sort::LATEST` - Sort by latest comments.
+* `Sort::LATEST` - Sort by latest comments.
 * `Sort::OLDEST` - Sort by oldest comments.
 * `Sort::REPLIES` - Sort by replies count &#x20;
 
@@ -63,7 +63,7 @@ class Post extends Model implements CommentableContract
 
 Available Options: Following options in [`LakM\Comments\Enums\Sort`](https://github.com/Lakshan-Madushanka/laravel-comments/blob/main/src/Enums/Sort.php) class.
 
-* \``Sort::LATEST` - Sort by latest comments.
+* `Sort::LATEST` - Sort by latest comments.
 * `Sort::OLDEST` - Sort by oldest comments.
 
 #### Overwrite default sort order
