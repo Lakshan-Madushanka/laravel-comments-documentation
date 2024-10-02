@@ -16,9 +16,24 @@ layout:
 
 All the policies used by the package globally are defined in the `permission` array. You are free to define your own [policies](https://laravel.com/docs/11.x/authorization).
 
-### Define authorization logics locally
+### Define global policies
 
-You can define authorization logics model-wise using the following methods. These methods take priority for the relevant model, disregarding global policies.
+```php
+// comments.php
+
+ 'permissions' => [
+    'create-comment' => [CommentPolicy::class, 'create'],
+    'update-comment' => [CommentPolicy::class, 'update'],
+    'delete-comment' => [CommentPolicy::class, 'delete'],
+    'create-reply' => [ReplyPolicy::class, 'create'],
+    'update-reply' => [ReplyPolicy::class, 'update'],
+    'delete-reply' => [ReplyPolicy::class, 'delete'],
+    ],
+```
+
+### Define authorization logic locally
+
+You can define authorization logic model-wise using the following methods. These methods take priority for the relevant model, disregarding global policies.
 
 ```php
 use LakM\Comments\Concerns\Commentable;
