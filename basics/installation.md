@@ -53,11 +53,9 @@ Include scripts in your layout
 ```
 
 {% hint style="info" %}
-To avoid CSS name conflicts, we recommend adding your styles to the end of the head tag.
-{% endhint %}
-
 If you manually include livewire frontend assets make sure `@commentsScripts` is included before
 `@livewireScripts`
+{% endhint %}
 
 ```html
 <html>
