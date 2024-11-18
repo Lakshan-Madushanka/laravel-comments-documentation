@@ -52,7 +52,7 @@ Include scripts in your layout
 </html>
 ```
 
-{% hint style="info" %}
+{% hint style="warning" %}
 If you manually include livewire frontend assets make sure @commentsStyles is included before @livewireStyles and`@commentsScripts` is included before `@livewireScripts`
 {% endhint %}
 
