@@ -52,9 +52,9 @@ Include scripts in your layout
 </html>
 ```
 
-{% hint style="warning" %}
-If you manually include livewire frontend assets make sure @commentsStyles is included before @livewireStyles and`@commentsScripts` is included before `@livewireScripts`
-{% endhint %}
+#### Manually including Livewire's frontend assets <a href="#manually-including-livewires-frontend-assets" id="manually-including-livewires-frontend-assets"></a>
+
+If you manually include livewire frontend ([documentation](https://livewire.laravel.com/docs/installation#manually-bundling-livewire-and-alpine)) assets make sure `@commentsStyles` is included before `@livewireStyles` and`@commentsScripts` is included before the `@livewireScripts`
 
 ```html
 <html>
@@ -66,6 +66,27 @@ If you manually include livewire frontend assets make sure @commentsStyles is in
         @commentsScripts
         @livewireScripts
     </body>
+</html>
+```
+
+#### Manually bundling Livewire and Alpine <a href="#manually-bundling-livewire-and-alpine" id="manually-bundling-livewire-and-alpine"></a>
+
+If you manually bundle livewire frontend ([documentation](https://livewire.laravel.com/docs/installation#manually-bundling-livewire-and-alpine)) assets make sure `@commentsStyles` is included before `@livewireStyles` and`@commentsScripts` is included before the script that includes livewire bundle
+
+```
+<html>
+<head>
+    @commentsStyles
+    @livewireStyles
+    
+    @commentsScript
+    @vite(['resources/js/app.js'])
+</head>
+<body>
+    {{ $slot }}
+ 
+    @livewireScriptConfig 
+</body>
 </html>
 ```
 
