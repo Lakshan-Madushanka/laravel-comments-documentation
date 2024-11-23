@@ -79,7 +79,7 @@ If you manually bundle livewire frontend ([documentation](https://livewire.larav
     @commentsStyles
     @livewireStyles
     
-    @commentsScript
+    @commentsScripts
     @vite(['resources/js/app.js'])
 </head>
 <body>
