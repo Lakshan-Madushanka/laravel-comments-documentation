@@ -71,7 +71,7 @@ If you manually include livewire frontend ([documentation](https://livewire.lara
 
 #### Manually bundling Livewire and Alpine <a href="#manually-bundling-livewire-and-alpine" id="manually-bundling-livewire-and-alpine"></a>
 
-If you manually bundle livewire frontend ([documentation](https://livewire.laravel.com/docs/installation#manually-bundling-livewire-and-alpine)) assets make sure `@commentsStyles` is included before `@livewireStyles` and`@commentsScripts` is included before the script that includes livewire bundle
+If you manually bundle livewire frontend ([documentation](https://livewire.laravel.com/docs/installation#manually-bundling-livewire-and-alpine)) assets make sure `@commentsStyles` is included before `@livewireStyles` and`@commentsScripts` is included before the script that includes livewire bundle.
 
 ```
 <html>
