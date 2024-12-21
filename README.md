@@ -21,31 +21,13 @@ layout:
 
 <figure><img src=".gitbook/assets/Designer (3).jpeg" alt=""><figcaption></figcaption></figure>
 
-<div>
-
-<figure><img src="https://img.shields.io/badge/laravel-^10.0%20|%20^11.0-red" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="https://img.shields.io/github/actions/workflow/status/Lakshan-Madushanka/laravel-comments/run-tests.yml" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="https://img.shields.io/packagist/v/lakm/laravel-comments" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="https://img.shields.io/packagist/dt/lakm/laravel-comments" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="https://img.shields.io/github/license/Lakshan-Madushanka/laravel-comments" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="https://img.shields.io/badge/laravel-^10.0%20|%20^11.0-red" alt=""><figcaption></figcaption></figure> <figure><img src="https://img.shields.io/github/actions/workflow/status/Lakshan-Madushanka/laravel-comments/run-tests.yml" alt=""><figcaption></figcaption></figure> <figure><img src="https://img.shields.io/packagist/v/lakm/laravel-comments" alt=""><figcaption></figcaption></figure> <figure><img src="https://img.shields.io/packagist/dt/lakm/laravel-comments" alt=""><figcaption></figcaption></figure> <figure><img src="https://img.shields.io/github/license/Lakshan-Madushanka/laravel-comments" alt=""><figcaption></figcaption></figure></div>
 
 ## Overview
 
 Commenter is a feature-rich, modern package with an admin panel designed to address all your commenting needs. With this package, you won't need any additional tools for the comment functionality in your Laravel projects.
+
+<figure><img src=".gitbook/assets/Screenshot 2024-12-20 155943 (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/default_style.png" alt=""><figcaption></figcaption></figure>
 
