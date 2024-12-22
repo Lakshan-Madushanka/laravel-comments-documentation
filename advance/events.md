@@ -20,7 +20,7 @@ Commenter triggers the following events for your handlers to listen to:
 Consult Laravel documentation to learn more about [event and handlers](https://laravel.com/docs/11.x/events).&#x20;
 {% endhint %}
 
-<table data-full-width="true"><thead><tr><th width="365">Event Name</th><th>Properties</th><th>Descriptions</th></tr></thead><tbody><tr><td><pre><code>LakM\Comments\Events\CommentCreated
+<table data-full-width="true"><thead><tr><th width="365">Event Name</th><th>Properties</th><th>Description</th></tr></thead><tbody><tr><td><pre><code>LakM\Comments\Events\CommentCreated
 </code></pre></td><td><pre><code>public LakM\Comments\Models\Comment $model
 </code></pre></td><td>After a comment is created successfully.</td></tr><tr><td><pre><code>LakM\Comments\Events\CommentDeleted
 </code></pre></td><td><pre><code>public LakM\Comments\Models\Comment $model
