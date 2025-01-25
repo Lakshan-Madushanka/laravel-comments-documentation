@@ -25,7 +25,7 @@
 
 ## Configuration
 
-* [🇩🇴 Publish Config](configuration/publish-config.md)
+* [📜 Publish Config](configuration/publish-config.md)
 * [Migrations/Tables](configuration/migrations-tables.md)
 * [⚖️ Change Mode](configuration/change-mode.md)
 * [🔐 Authorization](configuration/authorization.md)

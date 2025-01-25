@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# 🇩🇴 Publish Config
+# 📜 Publish Config
 
 ### Publish config file
 
