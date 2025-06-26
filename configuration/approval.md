@@ -13,7 +13,7 @@ description: >-
 Set `approvalRequired` property true to enable.
 
 ```php
-use LakM\Comments\Concerns\Commentable;
+use LakM\Commenter\Concerns\Commentable;
 
 class Post extends Model
 {
@@ -28,7 +28,7 @@ class Post extends Model
 Set `approval_required` true to globally enable.
 
 ```php
-// comments.php
+// commenter.php
 "approval_required" => true,
 ```
 
@@ -37,7 +37,7 @@ Set `approval_required` true to globally enable.
 Set `reply.approval_required` true to globally enable.
 
 ```php
-// comments.php
+// commenter.php
 "reply" => [
     "approval_required" => true,
 ],

@@ -28,8 +28,8 @@ Set `$guestMode`, true in related model. This will effect to that model only.
 
 ```php
 use Illuminate\Database\Eloquent\Model;
-use LakM\Comments\Concerns\Commentable;
-use LakM\Comments\Contracts\CommentableContract;
+use LakM\Commenter\Concerns\Commentable;
+use LakM\Commenter\Contracts\CommentableContract;
 
 class Post extends Model implements CommentableContract
 {
@@ -44,7 +44,7 @@ class Post extends Model implements CommentableContract
 You can set guest mode enabled variable true in the config file. This will globally enabled the guest mode.
 
 ```php
-// comments.php
+// commenter.php
 
 guest_mode => [
     'enabled' => false, // Auth Mode
@@ -56,7 +56,7 @@ guest_mode => [
 The default guest mode relies on user's IP address, which is not ideal for security. For a more secure guest mode, consider enabling the secured guest mode feature.
 
 ```bash
-// comments.php
+// commenter.php
 
 guest_mode => [
     'enabled' => true,

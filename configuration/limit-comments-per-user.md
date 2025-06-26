@@ -19,7 +19,7 @@ You can limit the number of comment per user.
 ### Set Global Limit
 
 ```php
-// comments.php
+// commenter.php
 
 limit = 10; // now a user can make only 10 comments for a model. 
 ```
@@ -27,7 +27,7 @@ limit = 10; // now a user can make only 10 comments for a model.
 ### Locally
 
 ```php
-use LakM\Comments\Concerns\Commentable;
+use LakM\Commenter\Concerns\Commentable;
 
 class Post extends Model
 {

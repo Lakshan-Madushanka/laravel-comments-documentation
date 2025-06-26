@@ -25,7 +25,7 @@ You can enable any number of reactions on both sides, left and right. By default
 ### Defining Reactions
 
 ```php
-// comments.php
+// commenter.php
 
 'reactions' => [
 // Fill color is displayed after the current user reacted.
@@ -38,7 +38,7 @@ You can enable any number of reactions on both sides, left and right. By default
 #### Publish views
 
 ```bash
-php artisan vendor:publish --tag=comments-views
+php artisan vendor:publish --tag=commenter-views
 ```
 
 Create a blade file with the same name as the reaction name and include the icon in it in the following directory.
@@ -49,8 +49,9 @@ Create a blade file with the same name as the reaction name and include the icon
 |--resources
    |--views 
       |--vendor
-         |--comments
-            |--components
-               |--icons
-                  |--angry.blade.php
+        |--lakm
+            |--commenter
+               |--components
+                  |--icons
+                     |--angry.blade.php
 ```

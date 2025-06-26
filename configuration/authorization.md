@@ -19,7 +19,7 @@ All the policies used by the package globally are defined in the `permission` ar
 ### Define global policies
 
 ```php
-// comments.php
+// commenter.php
 
  'permissions' => [
     'create-comment' => [CommentPolicy::class, 'create'],
@@ -36,7 +36,7 @@ All the policies used by the package globally are defined in the `permission` ar
 You can define authorization logic model-wise using the following methods. These methods take priority for the relevant model, disregarding global policies.
 
 ```php
-use LakM\Comments\Concerns\Commentable;
+use LakM\Commenter\Concerns\Commentable;
 
 class Post extends Model
 {
