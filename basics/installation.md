@@ -33,7 +33,7 @@ Include styles in your layout.
 ```html
 <html>
     <head>
-        @commenterStyles
+        @commentsStyles
     </head>
 </html>
 ```
@@ -47,23 +47,23 @@ Include scripts in your layout
 ```html
 <html>
     <body>
-        @commenterScripts
+        @commentsScripts
     </body>
 </html>
 ```
 
 #### Manually including Livewire's frontend assets <a href="#manually-including-livewires-frontend-assets" id="manually-including-livewires-frontend-assets"></a>
 
-If you manually include livewire frontend ([documentation](https://livewire.laravel.com/docs/installation#manually-bundling-livewire-and-alpine)) assets make sure `@commenterStyles` is included before `@livewireStyles` and`@commenterScripts` is included before the `@livewireScripts`
+If you manually include livewire frontend ([documentation](https://livewire.laravel.com/docs/installation#manually-bundling-livewire-and-alpine)) assets make sure `@commentsStyles` is included before `@livewireStyles` and`@commentsScripts` is included before the `@livewireScripts`
 
 ```html
 <html>
     <head>
-        @commenterStyles
+        @commentsStyles
         @livewireStyles
     </head>
     <body>
-        @commenterScripts
+        @commentsScripts
         @livewireScripts
     </body>
 </html>
