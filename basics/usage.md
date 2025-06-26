@@ -25,8 +25,8 @@ Model that the user belongs to.
 ### Implement <mark style="color:purple;">CommentableContract</mark> and import <mark style="color:purple;">Commentable</mark> trait in commentable model.
 
 ```php
-use LakM\Comments\Concerns\Commentable;
-use LakM\Comments\Contracts\CommentableContract;
+use LakM\Commenter\Concerns\Commentable;
+use LakM\Commenter\Contracts\CommentableContract;
 
 class Post extends Model implements CommentableContract
 {
@@ -37,8 +37,8 @@ class Post extends Model implements CommentableContract
 ### Implement <mark style="color:purple;">CommenterContract</mark> and import <mark style="color:purple;">Commenter</mark> trait in commenter model.
 
 ```php
-use LakM\Comments\Concerns\Commenter;
-use LakM\Comments\Contracts\CommenterContract;
+use LakM\Commenter\Concerns\Commenter;
+use LakM\Commenter\Contracts\CommenterContract;
 
 class User extends Model implements CommenterContract
 {
@@ -51,7 +51,7 @@ class User extends Model implements CommenterContract
 ```html
 <html>
     <head>
-        @commentsStyles
+        @commenterStyles
     </head>
 </html>
 ```
@@ -65,7 +65,7 @@ To avoid CSS name conflicts, we recommend adding your styles to the end of the h
 ```html
 <html>
     <body>
-        @commentsScripts
+        @commenterScripts
     </body>
 </html>
 ```
@@ -77,14 +77,14 @@ To improve performance we recommend adding script at the end of the body tag.
 ### Then simply include component in your blade file
 
 ```html
-<x-comments::index :model="$post" />
+<x-commenter::index :model="$post" />
 ```
 
 {% hint style="danger" %}
 You can omit the index part but make sure to include the double colon. Otherwise Laravel will search for the component in project instead of the package.
 
 ```html
-<x-comments:: :model="$post" />
+<x-commenter:: :model="$post" />
 ```
 {% endhint %}
 
@@ -92,9 +92,9 @@ or you can use components separately,
 
 ```html
 <div x-cloak x-data class="space-y-8">
-    <livewire:comments-list :model="$model" />
+    <livewire:comments.list-view :model="$model" />
     <hr class="text-gray-400" />
-    <livewire:comments-create-form :model="$model" />
+    <livewire:comments.create-form :model="$model" />
 </div>
 
 ```

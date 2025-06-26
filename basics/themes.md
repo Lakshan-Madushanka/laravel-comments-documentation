@@ -23,7 +23,7 @@ Package provides 3 themes currently.
 You can change the theme using `theme` key in the config file.
 
 ```php
-// comments.php
+// commenter.php
 
 return [
      /**
