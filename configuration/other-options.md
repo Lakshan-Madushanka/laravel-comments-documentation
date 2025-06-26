@@ -14,12 +14,12 @@ layout:
 
 # 🛠️ Other Options
 
-You can find all the configurable options in our self-explanatory configuration file. By default, this file will be published as `comments.config` in the config directory after you run the [commenter:install ](../basics/installation.md)command.
+You can find all the configurable options in our self-explanatory configuration file. By default, this file will be published as `commenter.config` in the config directory after you run the [commenter:install ](../basics/installation.md)command.
 
 If you need to manually publish the configuration file, you can use the following command:
 
 ```bash
-php artisan vendor:publish --tag=comments-config
+php artisan vendor:publish --tag=commenter-config
 ```
 
 The contents of the configuration file are as follows:
@@ -28,11 +28,11 @@ The contents of the configuration file are as follows:
 <?php
 
 use App\Models\User;
-use LakM\Comments\Enums\Sort;
-use LakM\Comments\Models\Comment;
-use LakM\Comments\Models\Reaction;
-use LakM\Comments\Policies\CommentPolicy;
-use LakM\Comments\Policies\ReplyPolicy;
+use LakM\Commenter\Enums\Sort;
+use LakM\Commenter\Models\Comment;
+use LakM\Commenter\Models\Reaction;
+use LakM\Commenter\Policies\CommentPolicy;
+use LakM\Commenter\Policies\ReplyPolicy;
 
 return [
     /**
@@ -42,14 +42,14 @@ return [
 
     /**
      * Comment Model
-     * Must extend base model LakM\Comments\Models\Comment
+     * Must extend base model LakM\Commenter\Models\Comment
      */
     'model' => Comment::class,
 
     /**
      * Comment owner model
      * Must extend Illuminate\Contracts\Auth\Authenticatable
-     * Must implement LakM\Comments\Contracts\CommentableContract
+     * Must implement LakM\Commenter\Contracts\CommentableContract
      */
     'user_model' => User::class,
 
@@ -67,7 +67,7 @@ return [
 
     /**
      * Reaction model
-     * Must extend LakM\Comments\Models\Reaction
+     * Must extend LakM\Commenter\Models\Reaction
      */
     'reaction_model' => Reaction::class,
 

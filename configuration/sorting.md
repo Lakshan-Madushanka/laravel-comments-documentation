@@ -17,7 +17,7 @@ layout:
 
 ### Sorting Comments
 
-Available Options: All the options in [`LakM\Comments\Enums\Sort`](https://github.com/Lakshan-Madushanka/laravel-comments/blob/main/src/Enums/Sort.php) class.
+Available Options: All the options in [`LakM\Commenter\Enums\Sort`](https://github.com/Lakshan-Madushanka/laravel-comments/blob/main/src/Enums/Sort.php) class.
 
 * `Sort::TOP` - Sort by custom algorithm (default).
 * `Sort::LATEST` - Sort by latest comments.
@@ -28,12 +28,12 @@ Available Options: All the options in [`LakM\Comments\Enums\Sort`](https://githu
 
 #### **Globally**
 
-Change the `default_sort` option in `comments.config` file.
+Change the `default_sort` option in `commenter.config` file.
 
 ```
-// comments.config
+// commenter.config
 
-use LakM\Comments\Enums\Sort;
+use LakM\Commenter\Enums\Sort;
 
 return [
     // Default comments sort order, See Sort::class for available values
@@ -47,9 +47,9 @@ Define variable `$commmentsSortOrder` and set the value in [`commentable`](../ba
 
 ```
 use Illuminate\Database\Eloquent\Model;
-use LakM\Comments\Concerns\Commentable;
-use LakM\Comments\Contracts\CommentableContract;
-use LakM\Comments\Enums\Sort;
+use LakM\Commenter\Concerns\Commentable;
+use LakM\Commenter\Contracts\CommentableContract;
+use LakM\Commenter\Enums\Sort;
 
 class Post extends Model implements CommentableContract
 {
@@ -61,7 +61,7 @@ class Post extends Model implements CommentableContract
 
 ### Sorting Replies
 
-Available Options: Following options in [`LakM\Comments\Enums\Sort`](https://github.com/Lakshan-Madushanka/laravel-comments/blob/main/src/Enums/Sort.php) class.
+Available Options: Following options in [`LakM\Commenter\Enums\Sort`](https://github.com/Lakshan-Madushanka/laravel-comments/blob/main/src/Enums/Sort.php) class.
 
 * `Sort::LATEST` - Sort by latest comments.
 * `Sort::OLDEST` - Sort by oldest comments.
@@ -73,9 +73,9 @@ Available Options: Following options in [`LakM\Comments\Enums\Sort`](https://git
 Change the `reply.default_sort` option in `comments.config` file.
 
 ```
-// comments.config
+// commenter.config
 
-use LakM\Comments\Enums\Sort;
+use LakM\Commenter\Enums\Sort;
 
 return [
     'reply' => [
@@ -91,9 +91,9 @@ Define variable `$repliesSortOrder` and set the value in [`commentable`](../basi
 
 ```
 use Illuminate\Database\Eloquent\Model;
-use LakM\Comments\Concerns\Commentable;
-use LakM\Comments\Contracts\CommentableContract;
-use LakM\Comments\Enums\Sort;
+use LakM\Commenter\Concerns\Commentable;
+use LakM\Commenter\Contracts\CommentableContract;
+use LakM\Commenter\Enums\Sort;
 
 class Post extends Model implements CommentableContract
 {

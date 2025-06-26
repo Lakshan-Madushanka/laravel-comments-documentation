@@ -23,7 +23,7 @@ You can define your own rules using the `createCommentUsing(callable $callable)`
 ```php
 // AppServiceProvider.php
 
-use LakM\Comments\ValidationRules;
+use LakM\Commenter\ValidationRules;
 
 public function boot()
 {
