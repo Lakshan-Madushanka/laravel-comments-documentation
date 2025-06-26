@@ -17,7 +17,7 @@ layout:
 Commenter triggers the following events for your handlers to listen to:
 
 {% hint style="info" %}
-Consult Laravel documentation to learn more about [event and handlers](https://laravel.com/docs/11.x/events).&#x20;
+Consult Laravel documentation to learn more about [event and handlers](https://laravel.com/docs/11.x/events).
 {% endhint %}
 
 <table data-full-width="true"><thead><tr><th width="365">Event Name</th><th>Properties</th><th>Description</th></tr></thead><tbody><tr><td><pre><code>LakM\Comments\Events\CommentCreated

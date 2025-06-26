@@ -14,7 +14,7 @@ layout:
 
 # 🛟 Customization
 
-### &#x20;Views
+### Views
 
 You can customize all the views by publishing them using below commands,
 

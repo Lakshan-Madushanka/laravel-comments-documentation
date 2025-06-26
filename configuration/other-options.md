@@ -14,7 +14,7 @@ layout:
 
 # 🛠️ Other Options
 
-You can find all the configurable options in our self-explanatory configuration file. By default, this file will be published as `comments.config` in the config directory after you run the  [commenter:install ](../basics/installation.md) command.
+You can find all the configurable options in our self-explanatory configuration file. By default, this file will be published as `comments.config` in the config directory after you run the [commenter:install ](../basics/installation.md)command.
 
 If you need to manually publish the configuration file, you can use the following command:
 

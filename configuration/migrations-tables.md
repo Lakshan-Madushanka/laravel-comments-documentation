@@ -17,11 +17,11 @@ layout:
 
 Commenter publishes following three migrations/tables. When migrating these tables, name collisions may occur if your project already uses the same table names as Commenter's tables. This page provides guidance on how to avoid such collisions.
 
-| Migration Name                                                                                                                                     | Table Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| [create\_comments\_table](https://github.com/Lakshan-Madushanka/laravel-comments/blob/main/database/migrations/create\_comments\_table.php.stub)   | comments   |
-| [create\_guests\_table](https://github.com/Lakshan-Madushanka/laravel-comments/blob/main/database/migrations/create\_guests\_table.php.stub)       | guests     |
-| [create\_reactions\_table](https://github.com/Lakshan-Madushanka/laravel-comments/blob/main/database/migrations/create\_reactions\_table.php.stub) | reactions  |
+| Migration Name                                                                                                                                   | Table Name |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
+| [create\_comments\_table](https://github.com/Lakshan-Madushanka/laravel-comments/blob/main/database/migrations/create_comments_table.php.stub)   | comments   |
+| [create\_guests\_table](https://github.com/Lakshan-Madushanka/laravel-comments/blob/main/database/migrations/create_guests_table.php.stub)       | guests     |
+| [create\_reactions\_table](https://github.com/Lakshan-Madushanka/laravel-comments/blob/main/database/migrations/create_reactions_table.php.stub) | reactions  |
 
 Imagine your project already has a `comments` table, and you want to rename Commenter's `comments` table to `lakm_comments`.
 

@@ -14,7 +14,7 @@ layout:
 
 # 😍 Reactions
 
-You can enable any number of reactions on both sides, left and right.  By default following reactions have set.
+You can enable any number of reactions on both sides, left and right. By default following reactions have set.
 
 * Like
 * Dislike

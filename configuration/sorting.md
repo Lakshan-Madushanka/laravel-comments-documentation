@@ -22,7 +22,7 @@ Available Options: All the options in [`LakM\Comments\Enums\Sort`](https://githu
 * `Sort::TOP` - Sort by custom algorithm (default).
 * `Sort::LATEST` - Sort by latest comments.
 * `Sort::OLDEST` - Sort by oldest comments.
-* `Sort::REPLIES` - Sort by replies count &#x20;
+* `Sort::REPLIES` - Sort by replies count
 
 #### Overwrite default sort order
 
