@@ -17,7 +17,7 @@ layout:
 #### Step 1 :
 
 ```bash
-composer require lakm/laravel-comments -W
+composer require lakm/commenter -W
 ```
 
 #### Step 2 :
