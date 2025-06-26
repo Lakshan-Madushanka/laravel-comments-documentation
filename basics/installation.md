@@ -71,15 +71,15 @@ If you manually include livewire frontend ([documentation](https://livewire.lara
 
 #### Manually bundling Livewire and Alpine <a href="#manually-bundling-livewire-and-alpine" id="manually-bundling-livewire-and-alpine"></a>
 
-If you manually bundle livewire frontend ([documentation](https://livewire.laravel.com/docs/installation#manually-bundling-livewire-and-alpine)) assets make sure `@commentsStyles` is included before `@livewireStyles` and`@commentsScripts` is included before the script that includes livewire bundle.
+If you manually bundle livewire frontend ([documentation](https://livewire.laravel.com/docs/installation#manually-bundling-livewire-and-alpine)) assets make sure `@commenterStyles` is included before `@livewireStyles` and`@commenterScripts` is included before the script that includes livewire bundle.
 
 ```
 <html>
 <head>
-    @commentsStyles
+    @commenterStyles
     @livewireStyles
     
-    @commentsScripts
+    @commenterScripts
     @vite(['resources/js/app.js'])
 </head>
 <body>
@@ -97,5 +97,5 @@ To improve performance we recommend adding script at the end of the body tag.
 Optionally you can publish the views using below command,
 
 ```bash
-php artisan vendor:publish --tag=comments-views
+php artisan vendor:publish --tag=commenter-views
 ```
