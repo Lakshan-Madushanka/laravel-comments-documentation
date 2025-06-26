@@ -49,3 +49,4 @@
 
 * [🛣️ Roadmap](roadmap.md)
 * [💓 Sponsor](sponsor.md)
+* [🔄 Upgrade Guide](upgrade-guide.md)
